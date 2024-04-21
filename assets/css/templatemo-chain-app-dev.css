@@ -214,7 +214,7 @@ body {
   color: #4b8ef1 !important;
   text-transform: capitalize;
   font-size: 15px;
-  background-color: #fff;
+  background-color: #557ce8 !important;
   border-radius: 8px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -227,7 +227,7 @@ body {
 }
 
 .white-button a:hover {
-  background-color: #4b8ef1;
+  background-color: #5e98ef !important;
   color: #fff !important;
 
 }
