@@ -137,7 +137,7 @@ img {
 }
 
 h4 {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 /* 
@@ -162,6 +162,12 @@ body {
 }
 
 @media (max-width: 991px) {
+
+  .team-members {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  
   html, body {
     overflow-x: hidden;
   }
@@ -952,6 +958,8 @@ Banner Style
 Services Style
 --------------------------------------------- 
 */
+
+
 
 .services {
   padding-top: 130px;
@@ -2192,6 +2200,11 @@ responsive
 
 
 @media (max-width: 1200px) {
+
+ 
+
+
+
   .header-area .main-nav .logo h4 {
     font-size: 24px;
   }
@@ -2327,6 +2340,33 @@ responsive
 
 
 @media (max-width: 767px) {
+
+  .team-members {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .logo img {
+    height: 80px;
+  }
+
+  h2 {
+    font-size: 26px !important;
+  }
+
+
+  .main-banner .left-content h2 {
+    font-size: 42px !important;
+  }
+  p {
+    font-size: 17px !important;
+  }
+
+  .services .col-lg-3 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+
   .the-clients .naccs .menu div {
     text-align: center;
   }
@@ -2382,7 +2422,7 @@ responsive
   }
   .service-item {
     text-align: center;
-    padding: 30px;
+    padding: 40px;
   }
   .menu .thumb span.category {
     display: none;
