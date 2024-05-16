@@ -1758,7 +1758,18 @@ footer .section-heading h4 {
   text-align: center;
 }
 
+.footer-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.flexAristomate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
 
 .footer-widget .logo img {
   max-width: 96px;
@@ -2169,6 +2180,13 @@ a.btn_red {
     gap: 2.5rem;
   }
 
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
 
   .social a {
     width: 40px;
@@ -2180,7 +2198,6 @@ a.btn_red {
     border: 2px solid rgba(255, 255, 255, 0.615); 
     font-size: 17px;
     color: white;
-    margin-right: 22px;
     margin-bottom: 80px;
     transition: ease .5s;
   }
